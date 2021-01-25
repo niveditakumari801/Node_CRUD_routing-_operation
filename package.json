@@ -1,0 +1,21 @@
+{
+    "name": "fuelmanagement",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "start": "nodemon server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "anant",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.17.1",
+        "mongoose": "^5.11.5",
+        "mongoose-geojson-schema": "^2.1.5",
+        "node-geocoder": "^3.27.0"
+    },
+    "devDependencies": {
+        "nodemon": "^2.0.6"
+    }
+}
